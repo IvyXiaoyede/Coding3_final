@@ -1,7 +1,10 @@
 # Coding3_final
 reference：https://www.tensorflow.org/tutorials/generative/dcgan?hl=zh-cn
+
 video：
-dataset：
+
+dataset：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/ 
+
 ### Description of work:
 I used the DCGAN algorithm to process images from the Oxford Flowers 102 （https://www.robots.ox.ac.uk/~vgg/data/flowers/102/ ） database and generate images with floral patterns. I trained the algorithm for several iterations, 500, 2000 and 4000 iterations respectively.
 By gradually increasing the number of iterations, I found that the resulting images became progressively more distinct and realistic. As the number of iterations increased, the adversarial training between the generator and discriminator was further enhanced, resulting in an improvement in the quality of the generated images. The generated flower patterns became sharper, more detailed, and closer to the appearance of real flowers.
