@@ -13,7 +13,11 @@ This phenomenon can be attributed to the properties of the DCGAN algorithm. The 
 ## Training process:
 ### Replacing the database:
 First, I tried referencing the Oxford Flowers 102 database directly from the link to the Colab environment. However, a number of problems were encountered. The sheer size of the database caused it to run particularly slowly, while the resulting images appeared disorganised.
-To solve these problems, I decided to download the database locally and select some of the images for training. In order to increase the run rate, control the training data and generate high quality images. By using a subset of the local database for training, I managed to solve the problems of slow running and poor image quality caused by the oversized original database. (Image)
+To solve these problems, I decided to download the database locally and select some of the images for training. In order to increase the run rate, control the training data and generate high quality images. By using a subset of the local database for training, I managed to solve the problems of slow running and poor image quality caused by the oversized original database. 
+![image](https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/ba40504d-dc93-4320-a203-708d49805473)
+
+<img width="436" alt="image" src="https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/d494c0a6-61c9-402f-9e65-49a2996065da">
+
 
 ### Changing the RGB channels:
 After replacing the database, you have processed the training content and one of the important changes is the change of image channels. Whereas the images in the original database were single-channel black and white images, after replacing the database you converted the images to colour channels, i.e. three-channel images. This channel change also provides your model with a richer set of input features. In the original single-channel image, the model can only rely on the grey scale values to learn the features of the image. Whereas in a colour image, the model can use the interactions and differences between the different channels to capture more of the image features. (Image)
