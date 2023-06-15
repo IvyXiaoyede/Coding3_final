@@ -1,2 +1,2 @@
 # Coding3_final
-/content/dcgan.gif
+reference：https://www.tensorflow.org/tutorials/generative/dcgan?hl=zh-cn
