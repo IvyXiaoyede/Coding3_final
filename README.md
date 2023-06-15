@@ -24,7 +24,8 @@ After replacing the database, you have processed the training content and one of
 
 ![image](https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/36adf6da-8ee2-4639-9de3-08cccb10d589)
 
-<img width="1003" alt="image" src="https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/a658d754-554f-4528-9cb7-9b7654234ce4">
+![image](https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/6cb93120-f60a-4dba-9387-013174dc336d)
+
 
 
 ### Changing the precision of training:
