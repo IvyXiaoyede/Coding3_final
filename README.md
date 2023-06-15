@@ -1,7 +1,7 @@
 # Coding3_final
 reference：https://www.tensorflow.org/tutorials/generative/dcgan?hl=zh-cn
 
-video：
+video：https://youtu.be/1dSc9nnPfRc
 
 dataset：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/ 
 
