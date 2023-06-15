@@ -20,7 +20,12 @@ To solve these problems, I decided to download the database locally and select s
 
 
 ### Changing the RGB channels:
-After replacing the database, you have processed the training content and one of the important changes is the change of image channels. Whereas the images in the original database were single-channel black and white images, after replacing the database you converted the images to colour channels, i.e. three-channel images. This channel change also provides your model with a richer set of input features. In the original single-channel image, the model can only rely on the grey scale values to learn the features of the image. Whereas in a colour image, the model can use the interactions and differences between the different channels to capture more of the image features. (Image)
+After replacing the database, you have processed the training content and one of the important changes is the change of image channels. Whereas the images in the original database were single-channel black and white images, after replacing the database you converted the images to colour channels, i.e. three-channel images. This channel change also provides your model with a richer set of input features. In the original single-channel image, the model can only rely on the grey scale values to learn the features of the image. Whereas in a colour image, the model can use the interactions and differences between the different channels to capture more of the image features. 
+
+![image](https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/36adf6da-8ee2-4639-9de3-08cccb10d589)
+
+<img width="1003" alt="image" src="https://github.com/IvyXiaoyede/Coding3_final/assets/119190967/a658d754-554f-4528-9cb7-9b7654234ce4">
+
 
 ### Changing the precision of training:
 I made adjustments to the accuracy of the training, mainly focusing on the input size of the image and the number of times the generator was generated. Firstly, the size of the original image can be relatively small and I chose a larger input image size (500*750). By increasing the size of the input image, you provide the model with more image detail. Secondly, a smaller image size was chosen for the first two training sessions. It was to speed up the training and to explore the behaviour of the model. Smaller image sizes reduce the computational load of each batch and converge faster to an initial solution. For the final training, a larger image size (128x128 pixels) was chosen and the number of generators generated was increased. This was done to obtain a single image with a more pronounced training effect.
