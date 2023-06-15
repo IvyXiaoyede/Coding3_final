@@ -37,4 +37,6 @@ I made adjustments to the accuracy of the training, mainly focusing on the input
 -The generated gif could not be played in the Colab, the file was too big to solve, so I downloaded it and played it.
 -The change in the image did not appear, and with the help of Jasper, it was found that the wrong layer was running.
 
-
+Result：
+FFFFinal_2_py.ipynb
+https://youtu.be/Pa-0_m-2rUo
